@@ -1,0 +1,35 @@
+apply plugin: 'com.android.application'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply from: '../general-setting.gradle'
+
+android {
+    defaultConfig {
+        applicationId "com.androidAppModule0"
+    }
+}
+
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':androidAppModule6')
+    implementation project(':androidAppModule2')
+    implementation project(':module0')
+    implementation project(':androidAppModule4')
+    implementation project(':androidAppModule8')
+    implementation project(':module1')
+    implementation project(':androidAppModule1')
+    implementation project(':androidAppModule9')
+    implementation project(':androidAppModule7')
+    implementation project(':androidAppModule3')
+    implementation project(':androidAppModule5')
+    implementation "com.android.support:appcompat-v7:26.1.0"
+    implementation "com.android.support.constraint:constraint-layout:1.0.2"
+    testImplementation "junit:junit:4.12"
+    androidTestImplementation "com.android.support.test:runner:1.0.1"
+    androidTestImplementation "com.android.support.test.espresso:espresso-core:3.0.1"
+    implementation "com.android.support:multidex:1.0.1"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+}
+
+
