@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-    <ScrollView
-            xmlns:android="http://schemas.android.com/apk/res/android"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+    <layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
         <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -13,18 +11,6 @@
         android:layout_height="wrap_content"
         android:text="@string/androidAppModule2string29"
         
-/><TextView
-        android:id="@+id/androidappmodule2activity_main29androidAppModule2string301"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/androidAppModule2string30"
-        
-/><TextView
-        android:id="@+id/androidappmodule2activity_main29androidAppModule2string312"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/androidAppModule2string31"
-        
 />
             <ImageView
         android:id="@+id/androidappmodule2activity_main29androidappmodule2image290"
@@ -33,42 +19,7 @@
         android:src="@drawable/androidappmodule2image29"
         
 />
-            <ImageView
-        android:id="@+id/androidappmodule2activity_main29androidappmodule2image301"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule2image30"
-        
-/>
-            <ImageView
-        android:id="@+id/androidappmodule2activity_main29androidappmodule2image312"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule2image31"
-        
-/>
-            <ImageView
-        android:id="@+id/androidappmodule2activity_main29androidappmodule2image323"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule2image32"
-        
-/>
-            <ImageView
-        android:id="@+id/androidappmodule2activity_main29androidappmodule2image334"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule2image33"
-        
-/>
-            <ImageView
-        android:id="@+id/androidappmodule2activity_main29androidappmodule2image345"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule2image34"
-        
-/>
             
             
         </LinearLayout>
-    </ScrollView>
+    </layout>
