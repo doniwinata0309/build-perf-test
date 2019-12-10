@@ -1,0 +1,15 @@
+# Please install gradle-profiler tools first:
+#https://github.com/gradle/gradle-profiler
+ # you can use this script to benchmark your build. --iteration will determine how many build/iteration for 1 benchmark. you can specify your gradle version based on current gradle wrapper version
+#gradle-profiler --benchmark --iterations 10 --gradle-version 5.6.1 --scenario ./scripts/benchmark.scenario clean_build
+
+
+defaults {
+    tasks = ["appentry:aGD"]
+}
+clean_build {
+
+    tasks = ["androidAppModule0:aFD"]
+    gradle-args = ["--rerun-tasks"]
+    warm-ups = 1
+}

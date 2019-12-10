@@ -28,3 +28,7 @@ reports/
 .settings/
 .classpath
 .vscode/
+/gradle-user-home/
+/profile-out/
+/profile-out-2/
+/profile-out-3/

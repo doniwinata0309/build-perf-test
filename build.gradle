@@ -5,13 +5,13 @@ buildscript {
         jcenter()
     }
     dependencies {
-        classpath "com.android.tools.build:gradle:3.5.2"
+        classpath "com.android.tools.build:gradle:3.6.0-beta05"
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
-plugins {
-    id 'com.gradle.build-scan' version '2.0.2'
-}
+//plugins {
+//    id 'com.gradle.build-scan' version '2.0.2'
+//}
 allprojects {
     repositories {
         google()
@@ -21,12 +21,12 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
-buildScan {
-    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
-    termsOfServiceAgree = 'yes'
-    tag 'SAMPLE'
-    link 'GitHub', 'https://github.com/gradle/gradle-build-scan-quickstart'
-}
+//buildScan {
+//    termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+//    termsOfServiceAgree = 'yes'
+//    tag 'SAMPLE'
+//    link 'GitHub', 'https://github.com/gradle/gradle-build-scan-quickstart'
+//}
 
 task projectDependencyGraph {
     doLast {

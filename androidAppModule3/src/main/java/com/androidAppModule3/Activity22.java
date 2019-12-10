@@ -9,7 +9,7 @@ public class Activity22 extends android.app.Activity {
   @Override
   public void onCreate(android.os.Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    new androidAppModule3packageJava0.Foo0().foo4();
+    new androidAppModule3packageJava0.Foo0().foo1();
     setContentView(R.layout.androidappmodule3activity_main22);
   }
 }

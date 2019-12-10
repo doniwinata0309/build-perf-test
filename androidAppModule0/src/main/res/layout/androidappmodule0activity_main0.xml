@@ -23,47 +23,247 @@
 />
             
             <include
-        layout="@layout/androidappmodule5activity_main29"
+        layout="@layout/androidappmodule8activity_main99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 />
             <include
-        layout="@layout/androidappmodule3activity_main29"
+        layout="@layout/androidappmodule10activity_main99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 />
             <include
-        layout="@layout/androidappmodule7activity_main29"
+        layout="@layout/androidappmodule9activity_main99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 />
             <include
-        layout="@layout/androidappmodule9activity_main29"
+        layout="@layout/androidappmodule42activity_main99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 />
             <include
-        layout="@layout/androidappmodule1activity_main29"
+        layout="@layout/androidappmodule21activity_main99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 />
             <include
-        layout="@layout/androidappmodule8activity_main29"
+        layout="@layout/androidappmodule37activity_main99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 />
             <include
-        layout="@layout/androidappmodule4activity_main29"
+        layout="@layout/androidappmodule5activity_main99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 />
             <include
-        layout="@layout/androidappmodule2activity_main29"
+        layout="@layout/androidappmodule13activity_main99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 />
             <include
-        layout="@layout/androidappmodule6activity_main29"
+        layout="@layout/androidappmodule39activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule31activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule20activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule18activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule34activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule27activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule19activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule3activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule28activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule23activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule22activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule45activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule24activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule25activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule48activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule32activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule2activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule7activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule6activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule16activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule36activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule35activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule49activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule43activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule38activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule11activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule44activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule14activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule47activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule40activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule15activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule12activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule46activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule17activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule33activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule30activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule26activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule41activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule29activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule1activity_main99"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+/>
+            <include
+        layout="@layout/androidappmodule4activity_main99"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 />

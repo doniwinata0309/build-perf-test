@@ -13,59 +13,12 @@
         android:layout_height="wrap_content"
         android:text="@string/androidAppModule3string29"
         
-/><TextView
-        android:id="@+id/androidappmodule3activity_main29androidAppModule3string301"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/androidAppModule3string30"
-        
-/><TextView
-        android:id="@+id/androidappmodule3activity_main29androidAppModule3string312"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/androidAppModule3string31"
-        
 />
             <ImageView
         android:id="@+id/androidappmodule3activity_main29androidappmodule3image290"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/androidappmodule3image29"
-        
-/>
-            <ImageView
-        android:id="@+id/androidappmodule3activity_main29androidappmodule3image301"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule3image30"
-        
-/>
-            <ImageView
-        android:id="@+id/androidappmodule3activity_main29androidappmodule3image312"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule3image31"
-        
-/>
-            <ImageView
-        android:id="@+id/androidappmodule3activity_main29androidappmodule3image323"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule3image32"
-        
-/>
-            <ImageView
-        android:id="@+id/androidappmodule3activity_main29androidappmodule3image334"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule3image33"
-        
-/>
-            <ImageView
-        android:id="@+id/androidappmodule3activity_main29androidappmodule3image345"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/androidappmodule3image34"
         
 />
             
