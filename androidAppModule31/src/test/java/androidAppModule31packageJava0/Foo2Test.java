@@ -12,4 +12,14 @@ public class Foo2Test {
   public void testFoo1() {
     new Foo2().foo1();
   }
+
+  @Test
+  public void testFoo2() {
+    new Foo2().foo2();
+  }
+
+  @Test
+  public void testFoo3() {
+    new Foo2().foo3();
+  }
 }
