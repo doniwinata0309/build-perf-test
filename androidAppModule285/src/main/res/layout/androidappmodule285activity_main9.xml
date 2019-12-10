@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <TextView
+        android:id="@+id/androidappmodule285activity_main9androidAppModule285string90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/androidAppModule285string9"
+        
+/><TextView
+        android:id="@+id/androidappmodule285activity_main9androidAppModule285string101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/androidAppModule285string10"
+        
+/><TextView
+        android:id="@+id/androidappmodule285activity_main9androidAppModule285string112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/androidAppModule285string11"
+        
+/>
+            <ImageView
+        android:id="@+id/androidappmodule285activity_main9androidappmodule285image90"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/androidappmodule285image9"
+        
+/>
+            <ImageView
+        android:id="@+id/androidappmodule285activity_main9androidappmodule285image101"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/androidappmodule285image10"
+        
+/>
+            <ImageView
+        android:id="@+id/androidappmodule285activity_main9androidappmodule285image112"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/androidappmodule285image11"
+        
+/>
+            <ImageView
+        android:id="@+id/androidappmodule285activity_main9androidappmodule285image123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/androidappmodule285image12"
+        
+/>
+            <ImageView
+        android:id="@+id/androidappmodule285activity_main9androidappmodule285image134"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/androidappmodule285image13"
+        
+/>
+            <ImageView
+        android:id="@+id/androidappmodule285activity_main9androidappmodule285image145"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/androidappmodule285image14"
+        
+/>
+            
+            
+        </LinearLayout>
+    </ScrollView>

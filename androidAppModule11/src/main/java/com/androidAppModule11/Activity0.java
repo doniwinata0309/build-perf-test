@@ -9,7 +9,7 @@ public class Activity0 extends android.app.Activity {
   @Override
   public void onCreate(android.os.Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
-    new androidAppModule11packageJava0.Foo0().foo1();
+    new androidAppModule11packageJava0.Foo0().foo19();
     setContentView(R.layout.androidappmodule11activity_main0);
   }
 }
