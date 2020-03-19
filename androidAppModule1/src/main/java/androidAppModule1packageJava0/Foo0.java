@@ -19,4 +19,6 @@ public class Foo0 {
   public void foo4() {
     foo3();
   }
+
+  public void changethisname(){}
 }
