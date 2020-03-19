@@ -1,0 +1,140 @@
+Gradle start parameters:
+  tasks = [assembleD]
+  excluded tasks = []
+  current dir = /Users/doni.winata/gradle-sample/build-perf-test
+  project properties args = {}
+  system properties args = {}
+
+Total time for Kotlin tasks: 4.24 s (43.4 % of all tasks time)
+
+Time  |% of Kotlin time|Task                                               
+1.11 s|26.2 %          |:androidAppModule0:kaptFlavDebugKotlin             
+0.80 s|19.0 %          |:androidAppModule1:kaptFlavDebugKotlin             
+0.68 s|16.0 %          |:androidAppModule2:kaptFlavDebugKotlin             
+0.39 s|9.1 %           |:androidAppModule1:kaptGenerateStubsFlavDebugKotlin
+0.22 s|5.2 %           |:androidAppModule1:compileFlavDebugKotlin          
+0.22 s|5.2 %           |:androidAppModule0:kaptGenerateStubsFlavDebugKotlin
+0.13 s|3.0 %           |:androidAppModule2:kaptGenerateStubsFlavDebugKotlin
+0.10 s|2.2 %           |:androidAppModule0:compileFlavDebugKotlin          
+0.09 s|2.1 %           |:androidAppModule4:kaptGenerateStubsFlavDebugKotlin
+0.08 s|1.9 %           |:androidAppModule2:compileFlavDebugKotlin          
+0.05 s|1.2 %           |:androidAppModule3:kaptGenerateStubsFlavDebugKotlin
+0.04 s|0.9 %           |:androidAppModule5:compileFlavDebugKotlin          
+0.03 s|0.7 %           |:androidAppModule3:compileFlavDebugKotlin          
+0.03 s|0.7 %           |:androidAppModule5:kaptFlavDebugKotlin             
+0.02 s|0.6 %           |:module0:compileKotlin                             
+0.02 s|0.5 %           |:androidAppModule5:kaptGenerateStubsFlavDebugKotlin
+0.02 s|0.5 %           |:androidAppModule6:kaptGenerateStubsFlavDebugKotlin
+0.02 s|0.5 %           |:androidAppModule9:kaptFlavDebugKotlin             
+0.02 s|0.4 %           |:androidAppModule7:kaptGenerateStubsFlavDebugKotlin
+0.02 s|0.4 %           |:androidAppModule8:kaptGenerateStubsFlavDebugKotlin
+0.02 s|0.4 %           |:androidAppModule4:kaptFlavDebugKotlin             
+0.02 s|0.4 %           |:androidAppModule3:kaptFlavDebugKotlin             
+0.01 s|0.3 %           |:androidAppModule6:kaptFlavDebugKotlin             
+0.01 s|0.3 %           |:androidAppModule9:kaptGenerateStubsFlavDebugKotlin
+0.01 s|0.3 %           |:androidAppModule8:kaptFlavDebugKotlin             
+0.01 s|0.3 %           |:androidAppModule7:compileFlavDebugKotlin          
+0.01 s|0.3 %           |:androidAppModule8:compileFlavDebugKotlin          
+0.01 s|0.3 %           |:module1:compileKotlin                             
+0.01 s|0.3 %           |:androidAppModule6:compileFlavDebugKotlin          
+0.01 s|0.3 %           |:androidAppModule7:kaptFlavDebugKotlin             
+0.01 s|0.2 %           |:androidAppModule4:compileFlavDebugKotlin          
+0.01 s|0.1 %           |:androidAppModule9:compileFlavDebugKotlin          
+0.00 s|0.0 %           |:module1:inspectClassesForKotlinIC                 
+0.00 s|0.0 %           |:module0:inspectClassesForKotlinIC                 
+
+task ':module0:compileKotlin' was skipped: UP-TO-DATE
+
+task ':module0:inspectClassesForKotlinIC' was skipped: UP-TO-DATE
+
+task ':module1:compileKotlin' was skipped: UP-TO-DATE
+
+task ':module1:inspectClassesForKotlinIC' was skipped: UP-TO-DATE
+
+task ':androidAppModule1:kaptGenerateStubsFlavDebugKotlin' finished in 0.39 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule1:kaptGenerateStubsFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598653898)
+  Compile iteration:
+  Process MembersChanged(fqName = androidAppModule1packageJava0.Foo0, names = [changetasdasdhiacasadsdasdsname, changetaasdadssdasdhiacasadsdasdsname])
+
+task ':androidAppModule1:kaptFlavDebugKotlin' finished in 0.80 s
+
+task ':androidAppModule1:compileFlavDebugKotlin' finished in 0.22 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule1:compileFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598654805)
+  Compile iteration:
+  Process MembersChanged(fqName = androidAppModule1packageJava0.Foo0, names = [changetasdasdhiacasadsdasdsname, changetaasdadssdasdhiacasadsdasdsname])
+
+task ':androidAppModule2:kaptGenerateStubsFlavDebugKotlin' finished in 0.13 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule2:kaptGenerateStubsFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598655586)
+
+task ':androidAppModule2:kaptFlavDebugKotlin' finished in 0.68 s
+
+task ':androidAppModule2:compileFlavDebugKotlin' finished in 0.08 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule2:compileFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598656494)
+
+task ':androidAppModule3:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule3:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule3:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule8:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule7:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule6:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule5:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule8:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule7:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule6:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule8:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule7:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule6:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule5:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule4:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule5:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule4:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule4:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule9:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule9:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule9:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule0:kaptGenerateStubsFlavDebugKotlin' finished in 0.22 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule0:kaptGenerateStubsFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598657208)
+
+task ':androidAppModule0:kaptFlavDebugKotlin' finished in 1.11 s
+
+task ':androidAppModule0:compileFlavDebugKotlin' finished in 0.10 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule0:compileFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598658491)

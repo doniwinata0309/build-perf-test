@@ -1,0 +1,149 @@
+Gradle start parameters:
+  tasks = [assembleD]
+  excluded tasks = []
+  current dir = /Users/doni.winata/gradle-sample/build-perf-test
+  project properties args = {}
+  system properties args = {}
+
+Total time for Kotlin tasks: 2.55 s (34.3 % of all tasks time)
+
+Time  |% of Kotlin time|Task                                               
+0.67 s|26.4 %          |:androidAppModule1:kaptFlavDebugKotlin             
+0.48 s|18.7 %          |:androidAppModule1:kaptGenerateStubsFlavDebugKotlin
+0.37 s|14.4 %          |:androidAppModule0:kaptFlavDebugKotlin             
+0.22 s|8.6 %           |:androidAppModule2:kaptFlavDebugKotlin             
+0.14 s|5.5 %           |:androidAppModule1:compileFlavDebugKotlin          
+0.10 s|4.0 %           |:androidAppModule0:kaptGenerateStubsFlavDebugKotlin
+0.07 s|2.8 %           |:androidAppModule4:kaptGenerateStubsFlavDebugKotlin
+0.05 s|2.1 %           |:androidAppModule2:kaptGenerateStubsFlavDebugKotlin
+0.05 s|2.1 %           |:androidAppModule3:kaptGenerateStubsFlavDebugKotlin
+0.04 s|1.5 %           |:androidAppModule2:compileFlavDebugKotlin          
+0.04 s|1.5 %           |:androidAppModule0:compileFlavDebugKotlin          
+0.04 s|1.4 %           |:module0:compileKotlin                             
+0.03 s|1.1 %           |:androidAppModule4:kaptFlavDebugKotlin             
+0.02 s|0.8 %           |:module1:compileKotlin                             
+0.02 s|0.7 %           |:androidAppModule3:kaptFlavDebugKotlin             
+0.02 s|0.7 %           |:androidAppModule5:kaptFlavDebugKotlin             
+0.02 s|0.7 %           |:androidAppModule6:kaptFlavDebugKotlin             
+0.02 s|0.7 %           |:androidAppModule8:kaptFlavDebugKotlin             
+0.02 s|0.6 %           |:androidAppModule7:kaptFlavDebugKotlin             
+0.01 s|0.6 %           |:androidAppModule5:compileFlavDebugKotlin          
+0.01 s|0.5 %           |:androidAppModule9:kaptFlavDebugKotlin             
+0.01 s|0.5 %           |:androidAppModule5:kaptGenerateStubsFlavDebugKotlin
+0.01 s|0.5 %           |:androidAppModule7:kaptGenerateStubsFlavDebugKotlin
+0.01 s|0.5 %           |:androidAppModule6:kaptGenerateStubsFlavDebugKotlin
+0.01 s|0.5 %           |:androidAppModule8:kaptGenerateStubsFlavDebugKotlin
+0.01 s|0.4 %           |:androidAppModule9:kaptGenerateStubsFlavDebugKotlin
+0.01 s|0.4 %           |:androidAppModule3:compileFlavDebugKotlin          
+0.01 s|0.4 %           |:androidAppModule4:compileFlavDebugKotlin          
+0.01 s|0.4 %           |:androidAppModule6:compileFlavDebugKotlin          
+0.01 s|0.4 %           |:androidAppModule8:compileFlavDebugKotlin          
+0.01 s|0.3 %           |:androidAppModule7:compileFlavDebugKotlin          
+0.01 s|0.2 %           |:androidAppModule9:compileFlavDebugKotlin          
+0.00 s|0.1 %           |:module0:inspectClassesForKotlinIC                 
+0.00 s|0.1 %           |:module1:inspectClassesForKotlinIC                 
+
+task ':module0:compileKotlin' was skipped: UP-TO-DATE
+
+task ':module0:inspectClassesForKotlinIC' was skipped: UP-TO-DATE
+
+task ':module1:compileKotlin' was skipped: UP-TO-DATE
+
+task ':module1:inspectClassesForKotlinIC' was skipped: UP-TO-DATE
+
+task ':androidAppModule1:kaptGenerateStubsFlavDebugKotlin' finished in 0.48 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule1:kaptGenerateStubsFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598802003)
+  Compile iteration:
+  Process MembersChanged(fqName = androidAppModule1packageJava0.Foo0, names = [changetaaasdasdsdasdasdadssdasdhiacasadsdasdsname, changetaasdasdasdadssdasdhiacasadsdasdsname])
+
+task ':androidAppModule1:kaptFlavDebugKotlin' finished in 0.67 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule1:kaptFlavDebugKotlin':
+  Performing non-incremental build: incremental compilation is not enabled for ':androidAppModule1:kaptFlavDebugKotlin'
+
+task ':androidAppModule1:compileFlavDebugKotlin' finished in 0.14 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule1:compileFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598804028)
+  Compile iteration:
+  Process MembersChanged(fqName = androidAppModule1packageJava0.Foo0, names = [changetaaasdasdsdasdasdadssdasdhiacasadsdasdsname, changetaasdasdasdadssdasdhiacasadsdasdsname])
+
+task ':androidAppModule2:kaptGenerateStubsFlavDebugKotlin' finished in 0.05 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule2:kaptGenerateStubsFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598804534)
+
+task ':androidAppModule2:kaptFlavDebugKotlin' finished in 0.22 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule2:kaptFlavDebugKotlin':
+  Performing non-incremental build: incremental compilation is not enabled for ':androidAppModule2:kaptFlavDebugKotlin'
+
+task ':androidAppModule2:compileFlavDebugKotlin' finished in 0.04 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule2:compileFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598805146)
+
+task ':androidAppModule3:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule3:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule3:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule5:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule8:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule6:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule7:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule8:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule7:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule6:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule5:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule7:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule6:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule5:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule8:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule4:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule9:kaptGenerateStubsFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule9:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule9:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule4:kaptFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule4:compileFlavDebugKotlin' was skipped: UP-TO-DATE
+
+task ':androidAppModule0:kaptGenerateStubsFlavDebugKotlin' finished in 0.10 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule0:kaptGenerateStubsFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598806290)
+
+task ':androidAppModule0:kaptFlavDebugKotlin' finished in 0.37 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule0:kaptFlavDebugKotlin':
+  Performing non-incremental build: incremental compilation is not enabled for ':androidAppModule0:kaptFlavDebugKotlin'
+
+task ':androidAppModule0:compileFlavDebugKotlin' finished in 0.04 s
+Execution strategy: daemon
+Compilation log for task ':androidAppModule0:compileFlavDebugKotlin':
+  Use module detection: true
+  Last Kotlin Build info -- BuildInfo(startTS=1584598807152)
