@@ -1,3 +1,5 @@
+include ':dynamicfeature3'
+include ':dynamicfeature2'
 include ':androidAppModule9-flav-release'
 rootProject.name = 'GeneratedASProject'
 

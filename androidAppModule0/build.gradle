@@ -3,7 +3,31 @@ apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
 apply from: '../general-setting.gradle'
 
+
+
+def androidTest = ["AndroidTest","GDAT", "test", "Test", "unitTest"]
+
+def inferTaskName(family){
+    def taskNames = getGradle().getStartParameter().getTaskNames()
+    for(String taskElement: taskNames){
+        for(String variantArgs : family){
+            if(taskElement.contains(variantArgs)){
+                return family
+            }
+        }
+    }
+}
+
+def isAndroidTest = inferTaskName(androidTest) != null
 android {
+
+    dynamicFeatures = [':dynamicfeature2']
+
+    print("isAndroidTest"+isAndroidTest)
+    if (isAndroidTest) {
+        dynamicFeatures = [':dynamicfeature2', ':dynamicfeature3']
+        print("dynamicFeatures test included")
+    }
     defaultConfig {
         applicationId "com.androidAppModule0"
     }
