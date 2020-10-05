@@ -1,0 +1,32 @@
+plugins {
+    id 'com.android.dynamic-feature'
+    id 'kotlin-android'
+}
+apply from: '../general-setting.gradle'
+
+
+dependencies {
+    implementation project(":androidAppModule0")
+    androidTestImplementation project(':shared_test_dfm')
+    // Kotlin
+    implementation libraries.kotlin
+
+    androidTestImplementation(libraries.espresso_core) {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestImplementation(libraries.test_runner) {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestImplementation(libraries.espresso_intents) {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestImplementation(libraries.espresso_idling) {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    }
+    androidTestImplementation(libraries.espresso_contrib) {
+        exclude group: 'com.android.support', module: 'support-v4'
+        exclude group: 'com.android.support', module: 'support-annotations'
+        exclude group: 'com.android.support', module: 'recyclerview-v7'
+        exclude group: 'com.android.support', module: 'design'
+    }
+}

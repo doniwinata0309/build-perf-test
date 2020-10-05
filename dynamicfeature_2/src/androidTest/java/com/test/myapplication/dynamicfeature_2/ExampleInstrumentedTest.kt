@@ -1,7 +1,7 @@
-package com.test.myapplication.dynamicfeature_1
+package com.test.myapplication.dynamicfeature_2
 
-import android.support.test.InstrumentationRegistry
-import android.support.test.runner.AndroidJUnit4
+import androidx.test.platform.app.InstrumentationRegistry
+import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner
 
 import org.junit.Test
 import org.junit.runner.RunWith
@@ -13,12 +13,12 @@ import org.junit.Assert.*
  *
  * See [testing documentation](http://d.android.com/tools/testing).
  */
-@RunWith(AndroidJUnit4::class)
+@RunWith(AndroidJUnit4ClassRunner::class)
 class ExampleInstrumentedTest {
     @Test
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("com.test.myapplication.dynamicfeature_1", appContext.packageName)
+        assertEquals("com.test.myapplication.dynamicfeature_2", appContext.packageName)
     }
 }

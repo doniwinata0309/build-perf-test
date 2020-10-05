@@ -96,6 +96,15 @@ ext.libraries = [
         junit5_vintage_engine : "org.junit.vintage:junit-vintage-engine:$versions.libraries.junit5",
 
 
+        // UI Testing
+        espresso_core         : "androidx.test.espresso:espresso-core:$versions.libraries.espresso",
+        espresso_contrib      : "androidx.test.espresso:espresso-contrib:$versions.libraries.espresso",
+        espresso_idling       : "androidx.test.espresso:espresso-idling-resource:$versions.libraries.espresso",
+        espresso_intents      : "androidx.test.espresso:espresso-intents:$versions.libraries.espresso",
+        espresso_web          : "androidx.test.espresso:espresso-web:$versions.libraries.espresso",
+        test_runner           : "androidx.test:runner:$versions.libraries.test_runner",
+        uiautomator           : "androidx.test.uiautomator:uiautomator:$versions.libraries.uiautomator",
+        orchestrator          : "androidx.test:orchestrator:$versions.libraries.orchestrator",
 
         //Kotlin
         kotlin                : "org.jetbrains.kotlin:kotlin-stdlib:$versions.gradlePlugins.kotlin",
