@@ -1,16 +1,18 @@
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
 apply plugin: 'kotlin-android-extensions'
+apply from: '../dependencies.gradle'
 apply from: '../general-setting.gradle'
 
 android {
+
+    dynamicFeatures = [':dynamicfeature-1', ':dynamicfeature-2', ':shared_test_dfm']
     defaultConfig {
         applicationId "com.androidAppModule0"
     }
 }
 
 dependencies {
-    implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation project(':androidAppModule4')
     implementation project(':androidAppModule1')
     implementation project(':androidAppModule29')

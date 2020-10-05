@@ -1,0 +1,104 @@
+ext.versions = [
+        projects     : [
+                versionCode     : 1,
+                versionName     : '1',
+                minSdk          : 21,
+                targetSdk       : 29,
+                compileSdk      : 29,
+                buildTools      : '29.0.3',
+
+        ],
+        gradlePlugins: [
+                android           : '4.1.0-rc03',
+                bundletool        : '1.0.0',
+                kotlin            : '1.4.10',
+                spotbugs          : '4.3.0',
+                junit5            : '1.6.2.0'
+        ],
+        libraries    : [
+                // Android X
+                multidex             : '2.0.1',
+                appcompat            : '1.1.0',
+                cardview             : '1.0.0',
+                constraintlayout     : '1.1.3',
+                material             : '1.1.0',
+                gridlayout           : '1.0.0',
+                percent              : '1.0.0',
+                recyclerview         : '1.1.0',
+                browser              : '1.0.0',
+                navigation           : '2.0.0',
+                androidx_core        : '1.1.0',
+                androidx_fragment    : '1.0.0',
+
+                //Google Services
+                googleservices_plugin: '4.3.3',
+
+                hamcrest             : '1.3',
+                junit                : '4.12',
+                mockito              : '1.10.19',
+                powermock            : '1.6.2',
+                robolectric          : '4.3.1',
+                mockk                : '1.10.0',
+                junit5               : '5.6.2',
+
+                // UI Testing
+                espresso             : '3.1.1',
+                test_runner          : '1.2.0',
+                uiautomator          : '2.2.0',
+                orchestrator         : '1.1.0',
+
+
+        ]
+]
+
+ext.gradlePlugins = [
+        android           : "com.android.tools.build:gradle:$versions.gradlePlugins.android",
+        bundletool        : "com.android.tools.build:bundletool:$versions.gradlePlugins.bundletool",
+        googleservices    : "com.google.gms:google-services:$versions.libraries.googleservices_plugin",
+        kotlin            : "org.jetbrains.kotlin:kotlin-gradle-plugin:$versions.gradlePlugins.kotlin",
+        junit5            : "de.mannodermaus.gradle.plugins:android-junit5:$versions.gradlePlugins.junit5"
+]
+
+
+ext.libraries = [
+        // Android X
+        appcompat             : "androidx.appcompat:appcompat:$versions.libraries.appcompat",
+        cardview              : "androidx.cardview:cardview:$versions.libraries.cardview",
+        gridlayout            : "androidx.gridlayout:gridlayout:$versions.libraries.gridlayout",
+        multidex              : "androidx.multidex:multidex:$versions.libraries.multidex",
+        percent               : "androidx.percentlayout:percentlayout:$versions.libraries.percent",
+        recyclerview          : "androidx.recyclerview:recyclerview:$versions.libraries.recyclerview",
+        asynclayoutinflater   : "androidx.asynclayoutinflater:asynclayoutinflater:$versions.libraries.asynclayoutinflater",
+        browser               : "androidx.browser:browser:$versions.libraries.browser",
+        constraintlayout      : "androidx.constraintlayout:constraintlayout:$versions.libraries.constraintlayout",
+        navigation            : "androidx.navigation:navigation-fragment:$versions.libraries.navigation",
+        navigation_ktx        : "androidx.navigation:navigation-fragment-ktx:$versions.libraries.navigation",
+        androidx_annotation   : "androidx.annotation:annotation:$versions.libraries.androidx_core",
+        androidx_core         : "androidx.core:core:$versions.libraries.androidx_core",
+        androidx_fragment     : "androidx.fragment:fragment:$versions.libraries.androidx_fragment",
+
+        material              : "com.google.android.material:material:$versions.libraries.material",
+
+
+        // Testing
+        hamcrest              : "org.hamcrest:hamcrest-all:$versions.libraries.hamcrest",
+        junit                 : "junit:junit:$versions.libraries.junit",
+        mockito               : "org.mockito:mockito-all:$versions.libraries.mockito",
+        powermock_junit4      : "org.powermock:powermock-module-junit4:$versions.libraries.powermock",
+        powermock_mockito     : "org.powermock:powermock-api-mockito:$versions.libraries.powermock",
+        powermock_junit4_rule : "org.powermock:powermock-module-junit4-rule:$versions.libraries.powermock",
+        powermock_classloading: "org.powermock:powermock-classloading-xstream:$versions.libraries.powermock",
+        robolectric           : "org.robolectric:robolectric:$versions.libraries.robolectric",
+        mockk                 : "io.mockk:mockk:$versions.libraries.mockk",
+        junit5_jupiter_api    : "org.junit.jupiter:junit-jupiter-api:$versions.libraries.junit5",
+        junit5_jupiter_engine : "org.junit.jupiter:junit-jupiter-engine:$versions.libraries.junit5",
+        junit5_jupiter_params : "org.junit.jupiter:junit-jupiter-params:$versions.libraries.junit5",
+        junit5_vintage_engine : "org.junit.vintage:junit-vintage-engine:$versions.libraries.junit5",
+
+
+
+        //Kotlin
+        kotlin                : "org.jetbrains.kotlin:kotlin-stdlib:$versions.gradlePlugins.kotlin",
+
+]
+
