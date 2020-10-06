@@ -1,4 +1,4 @@
-package com.test.myapplication.dynamicfeature_1
+package androidAppModule1packageJava0
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.internal.runner.junit4.AndroidJUnit4ClassRunner

@@ -4,7 +4,6 @@ plugins {
 }
 apply from: '../general-setting.gradle'
 
-
 dependencies {
     implementation project(":androidAppModule0")
     androidTestImplementation project(':shared_test_dfm')

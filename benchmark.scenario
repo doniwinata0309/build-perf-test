@@ -5,11 +5,9 @@
 
 
 defaults {
-    tasks = ["appentry:aGD"]
+    tasks = ["androidAppModule0:connectedAndroidTest"]
 }
-clean_build {
-
-    tasks = ["androidAppModule0:aFD"]
-    gradle-args = ["--rerun-tasks"]
+ui_test {
+    tasks = ["dynamicfeature_3:cFDAT"]
     warm-ups = 1
 }

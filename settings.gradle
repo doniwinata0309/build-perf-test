@@ -1,6 +1,8 @@
+
 plugins {
     id "com.gradle.enterprise" version "3.4"
 }
+
 gradleEnterprise {
     buildScan {
         termsOfServiceUrl = 'https://gradle.com/terms-of-service'
@@ -8,7 +10,7 @@ gradleEnterprise {
         publishAlways()
     }
 }
-
+include ':dynamicfeature_3'
 include ':shared_test_dfm'
 include ':dynamicfeature_2'
 include ':dynamicfeature_1'
