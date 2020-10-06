@@ -2,7 +2,7 @@ apply plugin: 'com.android.library'
 apply from: '../general-setting.gradle'
 
 dependencies {
-    androidTestImplementation project(':shared_test_dfm')
+//    androidTestImplementation project(':shared_test_dfm')
 
     // Kotlin
     implementation libraries.kotlin
