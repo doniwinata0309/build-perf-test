@@ -9,7 +9,7 @@ ext.versions = [
 
         ],
         gradlePlugins: [
-                android           : '4.1.0-rc03',
+                android           : '4.1.0',
                 bundletool        : '1.0.0',
                 kotlin            : '1.4.10',
                 spotbugs          : '4.3.0',

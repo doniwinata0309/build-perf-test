@@ -11,3 +11,10 @@ ui_test {
     tasks = ["dynamicfeature_3:cFDAT"]
     warm-ups = 1
 }
+
+clean_build {
+    tasks = ["androidAppModule0:bFD"]
+    daemon = cold
+        cleanup-tasks = ["clean"]
+         warm-ups = 1
+}
