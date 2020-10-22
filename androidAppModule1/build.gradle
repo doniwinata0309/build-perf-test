@@ -1,2 +1,13 @@
 apply plugin: 'com.android.library'
 apply from: '../general-setting.gradle'
+
+
+android {
+    // The default value for each feature is shown below. You can change the value to
+    // override the default behavior.
+    buildFeatures {
+      
+        dataBinding = true
+
+    }
+}

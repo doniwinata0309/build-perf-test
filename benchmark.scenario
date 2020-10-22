@@ -1,0 +1,12 @@
+# Please install gradle-profiler tools first:
+
+gradle-profiler --profile async-profiler    --project-dir ~/android-v4/android-v3 --scenario  ~/android-v4/android-v3/scripts/benchmark.scenario rail_model_build --async-profiler-interval 10000000 --async-profiler-framebuffer 100000000 --async-profiler-system-threads=true --gradle-version 6.7
+
+
+
+android_build {
+    tasks = ["androidAppModule0:aFD"]
+    daemon = warm
+    gradle-args = ["--rerun-tasks"]
+    warm-ups = 1
+}
