@@ -1,4 +1,7 @@
 apply plugin: 'com.android.library'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-kapt'
 apply from: '../general-setting.gradle'
 
 
@@ -7,6 +10,8 @@ dependencies {
 
     // Kotlin
     implementation libraries.kotlin
+    kapt  "org.parceler:parceler:1.1.13"
+    implementation "org.parceler:parceler-api:1.1.13"
 
     androidTestImplementation(libraries.espresso_core) {
         exclude group: 'com.android.support', module: 'support-annotations'

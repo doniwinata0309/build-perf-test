@@ -106,4 +106,8 @@
     <string name="title_dynamicfeature_2">dfm-2</string>
     <string name="title_shared_test_dfm">shared_test_dfm</string>
     <string name="title_dynamicfeature_3">dfm_3</string>
+    <string name="title_dynamicfeature4">Module Title</string>
+    <string name="title_dynamicfeature5">Module Title</string>
+    <string name="title_dynamicfeature6">Module Title</string>
+    <string name="title_dynamicfeature7">Module Title</string>
 </resources>

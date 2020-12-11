@@ -16,5 +16,6 @@ clean_build {
     tasks = ["androidAppModule0:bFD"]
     daemon = cold
         cleanup-tasks = ["clean"]
+        gradle-args = ["--no-build-cache"]
          warm-ups = 1
 }

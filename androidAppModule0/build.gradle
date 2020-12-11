@@ -5,7 +5,7 @@ apply from: '../general-setting.gradle'
 
 android {
 
-    dynamicFeatures = [':dynamicfeature_1', ':dynamicfeature_2', ':shared_test_dfm', ':dynamicfeature_3']
+    dynamicFeatures = [':dynamicfeature_1', ':dynamicfeature_2', ':shared_test_dfm', ':dynamicfeature_3', ':dynamicfeature4', ':dynamicfeature5', ':dynamicfeature6', ':dynamicfeature7']
     defaultConfig {
         applicationId "com.androidAppModule0"
     }

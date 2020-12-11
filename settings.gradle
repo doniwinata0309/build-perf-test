@@ -10,10 +10,14 @@ gradleEnterprise {
         publishAlways()
     }
 }
+include ':dynamicfeature5'
 include ':dynamicfeature_3'
 include ':shared_test_dfm'
 include ':dynamicfeature_2'
 include ':dynamicfeature_1'
+include ':dynamicfeature4'
+include ':dynamicfeature7'
+include ':dynamicfeature6'
 
 rootProject.name = 'GeneratedASProject'
 
